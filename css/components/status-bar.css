@@ -1,5 +1,9 @@
 .status-bar {
   /* 3개를 같은 줄에 놓으려면 display를 flex로 만들어 사용해준다 */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   padding: 5px 3px;
